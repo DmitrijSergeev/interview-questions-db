@@ -1,24 +1,23 @@
 {
-  "questionText": "Какие преимущества параметра `baseUrl` в `tsconfig.json`?",
+  "questionText": "Какие опции предоставляет параметр `baseUrl` в `tsconfig.json`?",
   "type": "checkbox",
-  "author": "KarolinaEsepenok",
+  "author": "DmitrijSergeev",
   "answers": [
     {
-      "text": "Принимает `state` и  `action`, которые могут быть типа только `object`",
+      "text": "Этот параметр позволяет использовать абсолютные пути вместо относительных, в связи с чем модулям явно указывают на их место в проекте",
+      "isCorrect": true
+    },
+    {
+      "text": "Это одно из требования модульной архитектуры в JavaScript",
       "isCorrect": false
     },
     {
-      "text": "Принимает `state` и `action`, которые могут быть любого типа",
-      "isCorrect": true
+      "text": "Это необходимый параметр для установки базового роутинга",
+      "isCorrect": false
     },
     {
-      "text": "Возвращает новую версию `state`",
-      "isCorrect": true
-    },
-    {
-      "text": "Ничего не возвращает",
+      "text": "Этот параметр нужен для правильной настройки `eslint`",
       "isCorrect": false
     }
-  ],
-  "descriptionMarkup": "`Reducer` - чистая функция, которая принимает `в качестве аргументов `state` и `action` и возвращает новую версию `stste`. `State` и `action` могут быть любого типа."
+  ]
 }
